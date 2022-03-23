@@ -29,8 +29,8 @@ void cuadradoReferencia(int* a){
 }
 
 void mostrarInformacion(int variable){
-    printf("Dirección de memoria de la variable:\t %i", &variable);
-    printf("Contenido de la variable:\t %i", variable);   
+    printf("Dirección de memoria de la variable:\t %p", &variable);
+    printf("Contenido de la variable:\t %d", variable);   
 }
 
 void invertir(int* a, int* b){
